@@ -40,8 +40,6 @@ class ScrapData:
 if __name__ == "__main__":
 
     scraper = ScrapData('https://webautomation.ro', UserAgent().random)
-    
-    if scraper.make_request():
-        print('Yeah, its work.')
-    else: 
-        print('No, somethingwrong...')
+    print(scraper.make_request())
+
+# end
