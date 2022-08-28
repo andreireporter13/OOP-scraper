@@ -1,5 +1,18 @@
-# here I will make a OOP scraper with bs4
+############################################################################
 #
+#
+# Author: Andrei C. Cojocaru
+# Linkedin: https://www.linkedin.com/in/andrei-cojocaru-985932204/
+# Facebook: https://www.facebook.com/webautomation.romania
+# Tiktok: https://www.tiktok.com/@n0hacker_reporter13
+# Twitter: https://twitter.com/andrei_reporter
+# Youtube: https://www.youtube.com/channel/UCgx_Y9OHi5KPVzLJo9setxw/featured
+# GitHub: https://github.com/andreireporter13
+# Website: https://webautomation.ro/
+# 
+# 
+############################################################################
+
 import requests 
 from bs4 import BeautifulSoup 
 
@@ -29,6 +42,6 @@ if __name__ == "__main__":
     scraper = ScrapData('https://webautomation.ro', UserAgent().random)
     
     if scraper.make_request():
-        print('Eee, merge.')
+        print('Yeah, its work.')
     else: 
-        print('No, ceva nu a mers.')
+        print('No, somethingwrong...')
